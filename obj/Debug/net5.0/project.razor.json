@@ -15649,6 +15649,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\radaklegol_1M\\Desktop\\EjercicioSem11_Teoria\\Views\\Producto\\Registro.cshtml",
+      "TargetPath": "Views\\Producto\\Registro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\radaklegol_1M\\Desktop\\EjercicioSem11_Teoria\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"

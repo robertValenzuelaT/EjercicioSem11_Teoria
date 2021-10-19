@@ -1,8 +1,27 @@
-﻿@{
+﻿@model List<Producto>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@if(Model.Count()==0){
+    <p>NADA</p>
+}else{
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-4 text-center">
+                <h2>@item.NomProd</h2>
+                <img src="@item.UrlFoto" class="img-fluid">
+                <p>@item.Precio.ToString("0.00")</p>
+                <p>@item.Descripcion</p>
+                <p>@item.Comprador</p>
+                <p>@item.Lugar</p>
+                <p>@item.FechaReg</p>
+                <p>@item.Categoria.DescCat</p>
+            </div> 
+        }
+    </div>
+}
+

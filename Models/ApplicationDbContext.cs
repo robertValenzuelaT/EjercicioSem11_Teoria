@@ -13,10 +13,9 @@ namespace EjercicioSem11_Teoria.Models
         }
         
         
-        //public DbSet<SolicitudAdopcion> SolicitudesAdopcion { get; set; }
-        //public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Producto> DataProductos { get; set; }
+        public DbSet<Categoria> DataCategorias { get; set; }
 
-        //public DbSet<PruebaMVCLogin.Models.Contact> DataContacts { get; set; }
-        //public DbSet<PruebaMVCLogin.Models.Product> DataProducts { get; set; }
+        
     }
 }

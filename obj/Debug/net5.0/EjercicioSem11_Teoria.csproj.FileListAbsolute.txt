@@ -100,3 +100,4 @@ C:\Users\radaklegol_1M\Desktop\EjercicioSem11_Teoria\obj\Debug\net5.0\EjercicioS
 C:\Users\radaklegol_1M\Desktop\EjercicioSem11_Teoria\obj\Debug\net5.0\ref\EjercicioSem11_Teoria.dll
 C:\Users\radaklegol_1M\Desktop\EjercicioSem11_Teoria\obj\Debug\net5.0\EjercicioSem11_Teoria.pdb
 C:\Users\radaklegol_1M\Desktop\EjercicioSem11_Teoria\obj\Debug\net5.0\EjercicioSem11_Teoria.genruntimeconfig.cache
+C:\Users\radaklegol_1M\Desktop\EjercicioSem11_Teoria\obj\Debug\net5.0\Razor\Views\Producto\Registro.cshtml.g.cs
